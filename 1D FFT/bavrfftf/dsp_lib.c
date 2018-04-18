@@ -48,8 +48,7 @@ int bavrfftf( float *rv1, long inc1, float *cout, long inco, long n, long *p)
 	int prefetch_const = 0x10010100;
   if (inc1 == 1  && inco == 2 && (n%64 == 0))
 	{
-	 if (rv1 != cout)
-	 {
+	 if (rv1 != cout)	 {
 		int i = 0, j = 0;
 		bufflag = 1;
 		cbuff = calloc (n*inc1*2, sizeof (float));
