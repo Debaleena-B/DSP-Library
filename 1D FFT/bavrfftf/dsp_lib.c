@@ -138,7 +138,7 @@ int bavrfftf( float *rv1, long inc1, float *cout, long inco, long n, long *p)
 		        v2.AsVector = vec_perm(l1.AsVector, zero.AsVector, perm_v2.AsVector);  
 		        v3.AsVector = vec_perm(l2.AsVector, zero.AsVector, perm_v1.AsVector);  
 		        v4.AsVector = vec_perm(l2.AsVector, zero.AsVector, perm_v2.AsVector);                        
-                v5.AsVector = vec_perm(l3.AsVector, zero.AsVector, perm_v1.AsVector); 
+                        v5.AsVector = vec_perm(l3.AsVector, zero.AsVector, perm_v1.AsVector); 
 		        v6.AsVector = vec_perm(l3.AsVector, zero.AsVector, perm_v2.AsVector); 
 		        v7.AsVector = vec_perm(l4.AsVector, zero.AsVector, perm_v1.AsVector); 
 		        v8.AsVector = vec_perm(l4.AsVector, zero.AsVector, perm_v2.AsVector); 
