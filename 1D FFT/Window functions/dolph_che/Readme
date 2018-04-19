@@ -1,0 +1,2 @@
+This function generates a Dolph-Chebychev window, multiplying the window by the real
+input vector rv1 to produce the output vector rv2.
