@@ -1,2 +1,4 @@
+According to Curtis-Wright definition of Function-
+
 The inverse complex-to-real FFT of the complex input vector is computed and stored in the
 real output vector.
