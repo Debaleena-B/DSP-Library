@@ -1,0 +1,2 @@
+Computes the one dimensional forward FFT for 64K real input data values.
+Also some functions involve the computation of one dimensional inverse FFT for 128K complex input data values.
