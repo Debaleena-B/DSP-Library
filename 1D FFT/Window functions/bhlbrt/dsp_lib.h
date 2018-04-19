@@ -2,7 +2,8 @@
 #define FAILURE -1
 #define PI 3.14159265
 
-typedef struct{
+typedef struct
+{
 	float real;
 	float im;
 }CV_COMPLEX;
