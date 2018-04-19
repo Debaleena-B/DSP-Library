@@ -68,7 +68,6 @@ int _bavfftwts_vec()
 
 int main_bhlbrt(void)
 {
-
 	float *rvin1, *rvout1;
 	int err;
 	int i;
@@ -210,7 +209,7 @@ int av_fft_dif( vector float *pvf, vector float *pw, unsigned int n, unsigned in
 		pvf[n/4+n/8+j] = vec_madd( vtfw3, vtf23, vtf22 );
 	}
 	stride = n/4; /* in stage 1 stride = n/4 */
-	edirts = 1;
+	edirts = 1; 
 	for( stage=1; stage<log_n-2; stage++ ) {
 		for( block=0; block<n/2; block+=stride ) {
 			pa = block;
